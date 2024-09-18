@@ -1,18 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ShowdoMilhao.MainPage">
+             x:Class="ShowdoMilhao.MainPage"
+             Shell.NavBarIsVisible="false"
+             BackgroundColor="#5c2f18">
 
     <ScrollView>
         <StackLayout Padding="10" Spacing="10">
 
             <!-- Caixa grande no topo (pode ser uma imagem, rótulo ou outro conteúdo) -->
-            <Frame HeightRequest="150" BackgroundColor="LightGray">
-                <Label Text="Título ou Imagem"
+            
+                <Image Source="pizza.png"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"
-                       FontSize="Large" />
-            </Frame>
+                       HeightRequest="230"/>
 
             <!-- Caixa de texto maior -->
             <Frame HeightRequest="100" BackgroundColor="LightGray">
@@ -22,17 +23,17 @@
             </Frame>
 
             <!-- Botões no lugar das caixas de texto -->
-            <Button Text="Botão 1" HeightRequest="50" />
-            <Button Text="Botão 2" HeightRequest="50" />
-            <Button Text="Botão 3" HeightRequest="50" />
-            <Button Text="Botão 4" HeightRequest="50" />
-            <Button Text="Botão 5" HeightRequest="50" />
+            <Button Text="Botão 1" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
+            <Button Text="Botão 2" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
+            <Button Text="Botão 3" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
+            <Button Text="Botão 4" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
+            <Button Text="Botão 5" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
 
             <!-- Botões pequenos na parte inferior -->
             <Grid ColumnDefinitions="*,*,*">
-                <Button Text="Botão 6" Grid.Column="0" />
-                <Button Text="Botão 7" Grid.Column="1" />
-                <Button Text="Botão 8" Grid.Column="2" />
+                <Button Text="Botão 6" TextColor="Black" Grid.Column="0" BackgroundColor="#a06b35"/>
+                <Button Text="Botão 7" TextColor="Black" Grid.Column="1" BackgroundColor="#a06b35"/>
+                <Button Text="Botão 8" TextColor="Black" Grid.Column="2" BackgroundColor="#a06b35"/>
             </Grid>
 
         </StackLayout>
