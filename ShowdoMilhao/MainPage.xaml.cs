@@ -2,9 +2,12 @@
 {
     public partial class MainPage : ContentPage
     {
+        Gerenciador gerenciador;
         public MainPage()
         {
             InitializeComponent();
+            gerenciador = new Gerenciador(LabelPergunta, ButtonResposta1, ButtonResposta2, ButtonResposta3, ButtonResposta4, ButtonResposta5);
+            gerenciador.ProximaQuestao();
         }
 
         // Eventos para os botões do meio

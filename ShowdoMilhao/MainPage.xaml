@@ -17,17 +17,18 @@
 
             <!-- Caixa de texto maior -->
             <Frame HeightRequest="100" BackgroundColor="LightGray">
-                <Label Text="Texto ou outro conteúdo"
-                       HorizontalOptions="Center"
-                       VerticalOptions="Center" />
+                <Label  x:Name="LabelPergunta"
+                        Text="Texto ou outro conteúdo"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center" />
             </Frame>
 
             <!-- Botões no lugar das caixas de texto -->
-            <Button Text="Botão 1" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
-            <Button Text="Botão 2" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
-            <Button Text="Botão 3" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
-            <Button Text="Botão 4" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
-            <Button Text="Botão 5" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
+            <Button x:Name="ButtonResposta1" Text="Botão 1" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
+            <Button x:Name="ButtonResposta2" Text="Botão 2" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
+            <Button x:Name="ButtonResposta3" Text="Botão 3" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
+            <Button x:Name="ButtonResposta4" Text="Botão 4" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
+            <Button x:Name="ButtonResposta5" Text="Botão 5" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
 
             <!-- Botões pequenos na parte inferior -->
             <Grid ColumnDefinitions="*,*,*">

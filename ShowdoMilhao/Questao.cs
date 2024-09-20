@@ -18,6 +18,16 @@ public class Questao
     Button buttonResposta4;
     Button buttonResposta5;
 
+    public void ConfiguraDesenho(Label labelPergunta, Button buttonResposta1, Button buttonResposta2, Button buttonResposta3, Button buttonResposta4, Button buttonResposta5)
+    {
+        this.labelPergunta=labelPergunta;
+        this.buttonResposta1 = buttonResposta1;
+        this.buttonResposta2=buttonResposta2;
+        this.buttonResposta3=buttonResposta3;
+        this.buttonResposta4=buttonResposta4;
+        this.buttonResposta5=buttonResposta5;
+    }
+  
     public void Desenhar()
     {
         labelPergunta.Text = Pergunta;
@@ -62,15 +72,7 @@ public class Questao
             return null;    
     }
 
-    public Questao(Label pergunta, Button reposta1, Button reposta2, Button reposta3, Button reposta4, Button reposta5)
-    {
-        labelPergunta = pergunta;
-        buttonResposta1 = reposta1;
-        buttonResposta2 = reposta2;
-        buttonResposta3 = reposta3;
-        buttonResposta4 = reposta4;
-        buttonResposta5 = reposta5; 
-    }
+   
 
 
 }
