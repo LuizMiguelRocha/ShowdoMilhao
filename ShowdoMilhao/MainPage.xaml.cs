@@ -13,27 +13,27 @@
         // Eventos para os botões do meio
         private void OnButton1Clicked(object sender, EventArgs e)
         {
-            // Ação do Botão 1
+            gerenciador.VerificarCorreto(1);
         }
 
         private void OnButton2Clicked(object sender, EventArgs e)
         {
-            // Ação do Botão 2
+            gerenciador.VerificarCorreto(2);
         }
 
         private void OnButton3Clicked(object sender, EventArgs e)
         {
-            // Ação do Botão 3
+           gerenciador.VerificarCorreto(3);
         }
 
         private void OnButton4Clicked(object sender, EventArgs e)
         {
-            // Ação do Botão 4
+            gerenciador.VerificarCorreto(4);
         }
 
         private void OnButton5Clicked(object sender, EventArgs e)
         {
-            // Ação do Botão 5
+            gerenciador.VerificarCorreto(5);
         }
 
         // Eventos para os botões na parte inferior

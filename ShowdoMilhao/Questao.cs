@@ -11,6 +11,7 @@ public class Questao
     public int nivelpergunta;
     public int RespostaCorreta;
     public int estruturadesenho;
+    public int Pontuação;
     Label labelPergunta;
     Button buttonResposta1;
     Button buttonResposta2;
