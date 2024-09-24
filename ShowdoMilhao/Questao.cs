@@ -37,6 +37,12 @@ public class Questao
         buttonResposta3.Text = Resposta3;
         buttonResposta4.Text = Resposta4;
         buttonResposta5.Text = Resposta5;
+
+        this.buttonResposta1!.BackgroundColor = Colors.Brown;
+        this.buttonResposta2!.BackgroundColor = Colors.Brown;
+        this.buttonResposta3!.BackgroundColor = Colors.Brown;
+        this.buttonResposta4.BackgroundColor = Colors.Brown;
+        this.buttonResposta5!.BackgroundColor = Colors.Brown;
     }
 
     public bool VerificarResposta(int rr)

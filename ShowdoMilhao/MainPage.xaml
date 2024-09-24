@@ -6,16 +6,12 @@
              BackgroundColor="#5c2f18">
 
     <ScrollView>
-        <StackLayout Padding="10" Spacing="10">
-
-            <!-- Caixa grande no topo (pode ser uma imagem, rótulo ou outro conteúdo) -->
-            
+        <StackLayout Padding="10" Spacing="10">            
                 <Image Source="pizza.png"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"
                        HeightRequest="230"/>
 
-            <!-- Caixa de texto maior -->
             <Frame HeightRequest="100" BackgroundColor="LightGray">
                 <Label  x:Name="LabelPergunta"
                         Text="Texto ou outro conteúdo"
@@ -23,14 +19,12 @@
                         VerticalOptions="Center" />
             </Frame>
 
-            <!-- Botões no lugar das caixas de texto -->
-            <Button x:Name="ButtonResposta1" Text="Botão 1" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
-            <Button x:Name="ButtonResposta2" Text="Botão 2" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
-            <Button x:Name="ButtonResposta3" Text="Botão 3" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
-            <Button x:Name="ButtonResposta4" Text="Botão 4" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
-            <Button x:Name="ButtonResposta5" Text="Botão 5" TextColor="Black" HeightRequest="50" BackgroundColor="#a06b35"/>
+            <Button x:Name="ButtonResposta1" Text="Botão 1" TextColor="Black" HeightRequest="50"  Clicked="OnButton1Clicked"/>
+            <Button x:Name="ButtonResposta2" Text="Botão 2" TextColor="Black" HeightRequest="50"  Clicked="OnButton2Clicked"/>
+            <Button x:Name="ButtonResposta3" Text="Botão 3" TextColor="Black" HeightRequest="50"  Clicked="OnButton3Clicked"/>
+            <Button x:Name="ButtonResposta4" Text="Botão 4" TextColor="Black" HeightRequest="50"  Clicked="OnButton4Clicked"/>
+            <Button x:Name="ButtonResposta5" Text="Botão 5" TextColor="Black" HeightRequest="50"  Clicked="OnButton5Clicked"/>
 
-            <!-- Botões pequenos na parte inferior -->
             <Grid ColumnDefinitions="*,*,*">
                 <Button Text="Botão 6" TextColor="Black" Grid.Column="0" BackgroundColor="#a06b35"/>
                 <Button Text="Botão 7" TextColor="Black" Grid.Column="1" BackgroundColor="#a06b35"/>
