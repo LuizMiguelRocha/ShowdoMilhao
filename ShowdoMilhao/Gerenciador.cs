@@ -390,7 +390,7 @@ public class Gerenciador
         Q31.Resposta3 = "Chica";
         Q31.Resposta4 = "Foxy";
         Q31.Resposta5 = "Puppet";
-        Q31.RespostaCorreta = 1; 
+        Q31.RespostaCorreta = 1;
         Q31.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q31.nivelpergunta = 4;
         ListaQuestoes.Add(Q31);
@@ -402,7 +402,7 @@ public class Gerenciador
         Q32.Resposta3 = "Foxy";
         Q32.Resposta4 = "Freddy";
         Q32.Resposta5 = "Puppet";
-        Q32.RespostaCorreta = 4; 
+        Q32.RespostaCorreta = 4;
         Q32.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q32.nivelpergunta = 4;
         ListaQuestoes.Add(Q32);
@@ -414,12 +414,214 @@ public class Gerenciador
         Q33.Resposta3 = "Funtame Chica";
         Q33.Resposta4 = "Nightmare Foxy";
         Q33.Resposta5 = "Phone Guy";
-        Q33.RespostaCorreta = 4; 
+        Q33.RespostaCorreta = 4;
         Q33.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q33.nivelpergunta = 4;
         ListaQuestoes.Add(Q33);
 
-        
+        var Q34 = new Questao();
+        Q34.Pergunta = "Quandos dentes tem o nightmare Nightmare?";
+        Q34.Resposta1 = "100";
+        Q34.Resposta2 = "94";
+        Q34.Resposta3 = "96";
+        Q34.Resposta4 = "120";
+        Q34.Resposta5 = "62";
+        Q34.RespostaCorreta = 3;
+        Q34.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q34.nivelpergunta = 4;
+        ListaQuestoes.Add(Q34);
+
+        var Q35 = new Questao();
+        Q35.Pergunta = "Em que noite o Nightmare aparece?";
+        Q35.Resposta1 = "20/0/0/0";
+        Q35.Resposta2 = "0/20/0/0";
+        Q35.Resposta3 = "0/0/20/0";
+        Q35.Resposta4 = "0/0/0/20";
+        Q35.Resposta5 = "20/20/20/20";
+        Q35.RespostaCorreta = 5;
+        Q35.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q35.nivelpergunta = 4;
+        ListaQuestoes.Add(Q35);
+
+        var Q36 = new Questao();
+        Q36.Pergunta = "Qual o nome da filha do Henry Emily";
+        Q36.Resposta1 = "Elizabeth";
+        Q36.Resposta2 = "Gabriel";
+        Q36.Resposta3 = "Charlie";
+        Q36.Resposta4 = "Susie";
+        Q36.Resposta5 = "Cassie";
+        Q36.RespostaCorreta = 3;
+        Q36.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q36.nivelpergunta = 4;
+        ListaQuestoes.Add(Q36);
+
+        var Q37 = new Questao();
+        Q37.Pergunta = "Por que o withered foxy de mata mesmo estande mascara?";
+        Q37.Resposta1 = "Porque sim";
+        Q37.Resposta2 = "Porque ele é inteligente";
+        Q37.Resposta3 = "Porque ele não gosta do Freddy";
+        Q37.Resposta4 = "Porque você é o guarda";
+        Q37.Resposta5 = "Porque é a mecânica do jogo";
+        Q37.RespostaCorreta = 5;
+        Q37.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q37.nivelpergunta = 4;
+        ListaQuestoes.Add(Q37);
+
+        var Q38 = new Questao();
+        Q38.Pergunta = "Que horas o jogo acaba";
+        Q38.Resposta1 = "1 hora da manhã";
+        Q38.Resposta2 = "3 horas da manhã";
+        Q38.Resposta3 = "meia noite";
+        Q38.Resposta4 = "6 horas da manhã";
+        Q38.Resposta5 = "Nunca acaba";
+        Q38.RespostaCorreta = 4;
+        Q38.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q38.nivelpergunta = 4;
+        ListaQuestoes.Add(Q38);
+
+        var Q39 = new Questao();
+        Q39.Pergunta = "De onde veio o jumpscare de fnaf";
+        Q39.Resposta1 = "De outro jogo";
+        Q39.Resposta2 = "De uma serie";
+        Q39.Resposta3 = "De um filme";
+        Q39.Resposta4 = "De um anime";
+        Q39.Resposta5 = "Por crianças";
+        Q39.RespostaCorreta = 3;
+        Q39.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q39.nivelpergunta = 4;
+        ListaQuestoes.Add(Q39);
+
+        var Q40 = new Questao();
+        Q40.Pergunta = "Quandas portas de o quarta da criança chorona";
+        Q40.Resposta1 = "1";
+        Q40.Resposta2 = "2";
+        Q40.Resposta3 = "3";
+        Q40.Resposta4 = "4";
+        Q40.Resposta5 = "5";
+        Q40.RespostaCorreta = 1;
+        Q40.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q40.nivelpergunta = 4;
+        ListaQuestoes.Add(Q40);
+
+        var Q41 = new Questao();
+        Q41.Pergunta = "Qual o nome do recordisda mundial de Fnaf 1 até o dia 25/09/2024";
+        Q41.Resposta1 = "arcaneryan";
+        Q41.Resposta2 = "D4rkGhostBr";
+        Q41.Resposta3 = "felpfelp";
+        Q41.Resposta4 = "Core";
+        Q41.Resposta5 = "Rouzones";
+        Q41.RespostaCorreta = 3;
+        Q41.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q41.nivelpergunta = 5;
+        ListaQuestoes.Add(Q41);
+
+        var Q42 = new Questao();
+        Q42.Pergunta = "Qual o nome do assacino de fnaf";
+        Q42.Resposta1 = "William Cafita";
+        Q42.Resposta2 = "Wiliiam Pai de Familha";
+        Q42.Resposta3 = "William Arnaldo";
+        Q42.Resposta4 = "William Frids";
+        Q42.Resposta5 = "William Afton";
+        Q42.RespostaCorreta = 5;
+        Q42.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q42.nivelpergunta = 5;
+        ListaQuestoes.Add(Q42);
+
+        var Q43 = new Questao();
+        Q43.Pergunta = "Qual o nome da ferramenta usada para criar fnaf 1";
+        Q43.Resposta1 = "GameMaker";
+        Q43.Resposta2 = "Visual Studio";
+        Q43.Resposta3 = "Clickteam Fusion 2.5";
+        Q43.Resposta4 = "Clickteam Fusion 2.0";
+        Q43.Resposta5 = "Clickteam Fusion 3.0";
+        Q43.RespostaCorreta = 3;
+        Q43.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q43.nivelpergunta = 5;
+        ListaQuestoes.Add(Q43);
+
+        var Q44 = new Questao();
+        Q44.Pergunta = "Qual fala que o Golden Freddy sempre diz?";
+        Q44.Resposta1 = "It´s you";
+        Q44.Resposta2 = "It´s me mario";
+        Q44.Resposta3 = "It´s me Golden Freddy";
+        Q44.Resposta4 = "It´s me Warrio";
+        Q44.Resposta5 = "It´s me";
+        Q44.RespostaCorreta = 5;
+        Q44.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q44.nivelpergunta = 5;
+        ListaQuestoes.Add(Q44);
+
+        var Q45 = new Questao();
+        Q45.Pergunta = "Quem é que fala 'I always come back'";
+        Q45.Resposta1 = "William Afton";
+        Q45.Resposta2 = "Spring Bonnie";
+        Q45.Resposta3 = "SpringTrap";
+        Q45.Resposta4 = "Golden Freddy";
+        Q45.Resposta5 = "Mike Afton";
+        Q45.RespostaCorreta = 3;
+        Q45.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q45.nivelpergunta = 5;
+        ListaQuestoes.Add(Q45);
+
+        var Q46 = new Questao();
+        Q46.Pergunta = "O do animatronic que é o rodo da Fazbear";
+        Q46.Resposta1 = "Freddy";
+        Q46.Resposta2 = "Help";
+        Q46.Resposta3 = "Bonnie";
+        Q46.Resposta4 = "Um urso aleatorio";
+        Q46.Resposta5 = "Wiilam Afton";
+        Q46.RespostaCorreta = 2;
+        Q46.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q46.nivelpergunta = 5;
+        ListaQuestoes.Add(Q46);
+
+        var Q47 = new Questao();
+        Q47.Pergunta = "";
+        Q47.Resposta1 = "";
+        Q47.Resposta2 = "";
+        Q47.Resposta3 = "";
+        Q47.Resposta4 = "";
+        Q47.Resposta5 = "";
+        Q47.RespostaCorreta = 4;
+        Q47.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q47.nivelpergunta = 5;
+        ListaQuestoes.Add(Q47);
+
+        var Q48 = new Questao();
+        Q48.Pergunta = "";
+        Q48.Resposta1 = "";
+        Q48.Resposta2 = "";
+        Q48.Resposta3 = "";
+        Q48.Resposta4 = "";
+        Q48.Resposta5 = "";
+        Q48.RespostaCorreta = 4;
+        Q48.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q48.nivelpergunta = 5;
+        ListaQuestoes.Add(Q48);
+
+        var Q49 = new Questao();
+        Q49.Pergunta = "";
+        Q49.Resposta1 = "";
+        Q49.Resposta2 = "";
+        Q49.Resposta3 = "";
+        Q49.Resposta4 = "";
+        Q49.Resposta5 = "";
+        Q49.RespostaCorreta = 4;
+        Q49.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q49.nivelpergunta = 5;
+        ListaQuestoes.Add(Q49);
+
+        var Q50 = new Questao();
+        Q50.Pergunta = "";
+        Q50.Resposta1 = "";
+        Q50.Resposta2 = "";
+        Q50.Resposta3 = "";
+        Q50.Resposta4 = "";
+        Q50.Resposta5 = "";
+        Q50.RespostaCorreta = 4;
+        Q50.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q50.nivelpergunta = 5;
+        ListaQuestoes.Add(Q50);
 
 
     }
