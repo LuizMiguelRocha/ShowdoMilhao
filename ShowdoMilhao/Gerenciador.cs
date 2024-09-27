@@ -258,7 +258,7 @@ public class Gerenciador
         Q20.Resposta3 = "Puppet";
         Q20.Resposta4 = "Bonnie";
         Q20.Resposta5 = "Foxy";
-        Q20.RespostaCorreta = 1;
+        Q20.RespostaCorreta = 3;
         Q20.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q20.nivelpergunta = 2;
         ListaQuestoes.Add(Q20);
@@ -564,7 +564,7 @@ public class Gerenciador
         ListaQuestoes.Add(Q45);
 
         var Q46 = new Questao();
-        Q46.Pergunta = "O do animatronic que é o rodo da Fazbear";
+        Q46.Pergunta = "O do animatronic que é o rosdo da Fazbear";
         Q46.Resposta1 = "Freddy";
         Q46.Resposta2 = "Help";
         Q46.Resposta3 = "Bonnie";
@@ -576,52 +576,173 @@ public class Gerenciador
         ListaQuestoes.Add(Q46);
 
         var Q47 = new Questao();
-        Q47.Pergunta = "";
-        Q47.Resposta1 = "";
-        Q47.Resposta2 = "";
-        Q47.Resposta3 = "";
-        Q47.Resposta4 = "";
-        Q47.Resposta5 = "";
-        Q47.RespostaCorreta = 4;
+        Q47.Pergunta = "Qual o nome do primeiro Youtuber br a passar o 50/20 da UCN";
+        Q47.Resposta1 = "Core";
+        Q47.Resposta2 = "MrGuinas";
+        Q47.Resposta3 = "HUEstation";
+        Q47.Resposta4 = "EnderBuilder";
+        Q47.Resposta5 = "Pirate Cove";
+        Q47.RespostaCorreta = 2;
         Q47.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q47.nivelpergunta = 5;
         ListaQuestoes.Add(Q47);
 
         var Q48 = new Questao();
-        Q48.Pergunta = "";
-        Q48.Resposta1 = "";
-        Q48.Resposta2 = "";
-        Q48.Resposta3 = "";
-        Q48.Resposta4 = "";
-        Q48.Resposta5 = "";
-        Q48.RespostaCorreta = 4;
+        Q48.Pergunta = "Qual o nome da fangame de fnaf em que o animatronic principal é um gato";
+        Q48.Resposta1 = "JR’s";
+        Q48.Resposta2 = "Tyke and Sons Lumber Co.";
+        Q48.Resposta3 = "The Glitched Attraction";
+        Q48.Resposta4 = "The Joy of Creation";
+        Q48.Resposta5 = "Five Nights at Candy's";
+        Q48.RespostaCorreta = 5;
         Q48.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q48.nivelpergunta = 5;
         ListaQuestoes.Add(Q48);
 
         var Q49 = new Questao();
-        Q49.Pergunta = "";
-        Q49.Resposta1 = "";
-        Q49.Resposta2 = "";
-        Q49.Resposta3 = "";
-        Q49.Resposta4 = "";
-        Q49.Resposta5 = "";
+        Q49.Pergunta = "Qual a fangame de fnaf em que nôs controla o scott cawthon";
+        Q49.Resposta1 = "JR’s";
+        Q49.Resposta2 = "Tyke and Sons Lumber Co.";
+        Q49.Resposta3 = "The Glitched Attraction";
+        Q49.Resposta4 = "The Joy of Creation";
+        Q49.Resposta5 = "Five Nights at Candy's";
         Q49.RespostaCorreta = 4;
         Q49.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q49.nivelpergunta = 5;
         ListaQuestoes.Add(Q49);
 
         var Q50 = new Questao();
-        Q50.Pergunta = "";
-        Q50.Resposta1 = "";
-        Q50.Resposta2 = "";
-        Q50.Resposta3 = "";
-        Q50.Resposta4 = "";
-        Q50.Resposta5 = "";
-        Q50.RespostaCorreta = 4;
+        Q50.Pergunta = "Qual a fangame em que o vilão é um ovo";
+        Q50.Resposta1 = "Five Nights at Candy's";
+        Q50.Resposta2 = "One Night at Flumpty's";
+        Q50.Resposta3 = "Super FNaF";
+        Q50.Resposta4 = "Wonderland";
+        Q50.Resposta5 = "POPGOES Evergreen";
+        Q50.RespostaCorreta = 2;
         Q50.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q50.nivelpergunta = 5;
         ListaQuestoes.Add(Q50);
+
+        var Q51 = new Questao();
+        Q51.Pergunta = "Qual a fangame que recebeu um processo de uma empresa de verdade";
+        Q51.Resposta1 = "POPGOES Evergreen";
+        Q51.Resposta2 = "Five Nights at Candy's";
+        Q51.Resposta3 = "Wonderland";
+        Q51.Resposta4 = "JOLLY ";
+        Q51.Resposta5 = "Golden Memory";
+        Q51.RespostaCorreta = 4;
+        Q51.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q51.nivelpergunta = 6;
+        ListaQuestoes.Add(Q51);
+
+        var Q52 = new Questao();
+        Q52.Pergunta = "Em qual Five Nights at Candy's o personagen Rat aparece";
+        Q52.Resposta1 = "Five Nights at Candy's 1";
+        Q52.Resposta2 = "Five Nights at Candy's 2";
+        Q52.Resposta3 = "Five Nights at Candy's 3";
+        Q52.Resposta4 = "Five Nights at Candy's 4";
+        Q52.Resposta5 = "Five Nights at Candy's Remaster";
+        Q52.RespostaCorreta = 3;
+        Q52.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q52.nivelpergunta = 6;
+        ListaQuestoes.Add(Q52);
+
+        var Q53 = new Questao();
+        Q53.Pergunta = "Qual o nome do personagen de Five Nights at Candy's que se parece a puppet";
+        Q53.Resposta1 = "Blank";
+        Q53.Resposta2 = "Monster Rat";
+        Q53.Resposta3 = "Old Candy";
+        Q53.Resposta4 = "Mary Schmidt";
+        Q53.Resposta5 = "Vinnie";
+        Q53.RespostaCorreta = 5;
+        Q53.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q53.nivelpergunta = 6;
+        ListaQuestoes.Add(Q53);
+
+        var Q54 = new Questao();
+        Q54.Pergunta = "";
+        Q54.Resposta1 = "";
+        Q54.Resposta2 = "";
+        Q54.Resposta3 = "";
+        Q54.Resposta4 = "";
+        Q54.Resposta5 = "";
+        Q54.RespostaCorreta = 4;
+        Q54.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q54.nivelpergunta = 6;
+        ListaQuestoes.Add(Q54);
+
+        var Q55 = new Questao();
+        Q55.Pergunta = "";
+        Q55.Resposta1 = "";
+        Q55.Resposta2 = "";
+        Q55.Resposta3 = "";
+        Q55.Resposta4 = "";
+        Q55.Resposta5 = "";
+        Q55.RespostaCorreta = 4;
+        Q55.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q55.nivelpergunta = 6;
+        ListaQuestoes.Add(Q55);
+
+        var Q56 = new Questao();
+        Q56.Pergunta = "";
+        Q56.Resposta1 = "";
+        Q56.Resposta2 = "";
+        Q56.Resposta3 = "";
+        Q56.Resposta4 = "";
+        Q56.Resposta5 = "";
+        Q56.RespostaCorreta = 4;
+        Q56.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q56.nivelpergunta = 6;
+        ListaQuestoes.Add(Q56);
+
+        var Q57 = new Questao();
+        Q57.Pergunta = "";
+        Q57.Resposta1 = "";
+        Q57.Resposta2 = "";
+        Q57.Resposta3 = "";
+        Q57.Resposta4 = "";
+        Q57.Resposta5 = "";
+        Q57.RespostaCorreta = 4;
+        Q57.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q57.nivelpergunta = 6;
+        ListaQuestoes.Add(Q57);
+
+        var Q58 = new Questao();
+        Q58.Pergunta = "";
+        Q58.Resposta1 = "";
+        Q58.Resposta2 = "";
+        Q58.Resposta3 = "";
+        Q58.Resposta4 = "";
+        Q58.Resposta5 = "";
+        Q58.RespostaCorreta = 4;
+        Q58.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q58.nivelpergunta = 6;
+        ListaQuestoes.Add(Q58);
+
+        var Q59 = new Questao();
+        Q59.Pergunta = "";
+        Q59.Resposta1 = "";
+        Q59.Resposta2 = "";
+        Q59.Resposta3 = "";
+        Q59.Resposta4 = "";
+        Q59.Resposta5 = "";
+        Q59.RespostaCorreta = 4;
+        Q59.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q59.nivelpergunta = 6;
+        ListaQuestoes.Add(Q59);
+
+        var Q60 = new Questao();
+        Q60.Pergunta = "";
+        Q60.Resposta1 = "";
+        Q60.Resposta2 = "";
+        Q60.Resposta3 = "";
+        Q60.Resposta4 = "";
+        Q60.Resposta5 = "";
+        Q60.RespostaCorreta = 4;
+        Q60.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
+        Q60.nivelpergunta = 6;
+        ListaQuestoes.Add(Q60);
+
 
 
     }

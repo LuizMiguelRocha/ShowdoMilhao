@@ -16,7 +16,7 @@
                 <Label  x:Name="LabelPergunta"
                         Text="Texto ou outro conteúdo"
                         HorizontalOptions="Center"
-                        VerticalOptions="Center" />
+                        VerticalOptions="Center" />        
             </Frame>
 
             <Button x:Name="ButtonResposta1" Text="Botão 1" TextColor="Black" HeightRequest="50"  Clicked="OnButton1Clicked"/>

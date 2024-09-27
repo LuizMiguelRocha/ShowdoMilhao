@@ -1,7 +1,11 @@
 namespace ShowdoMilhao;
 
-public class Questao
+public class Questao : IEquatable<Questao>
 {
+    public bool Equals(Questao q)
+    {
+        return this.nivelpergunta == q.nivelpergunta;
+    }
     public string Pergunta;
     public string Resposta1;
     public string Resposta2;
