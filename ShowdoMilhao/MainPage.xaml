@@ -11,6 +11,27 @@
                        HorizontalOptions="Center"
                        VerticalOptions="Center"
                        HeightRequest="230"/>
+            <Grid>           
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            </Grid>
+        <Label x:Name="labelPontuacao"
+                Text="Pontuação: R$0"
+                TextColor="White"
+                Padding="5,10,5,0"
+                HorizontalTextAlignment="Center"
+                BackgroundColor="#490d7a"
+                Grid.Column="0"/>
+
+        <Label x:Name="labelNivel"
+                Text="Nivel: 0"
+                TextColor="White"
+                Padding="5,10,5,0"
+                HorizontalTextAlignment="Center"
+                BackgroundColor="#490d7a"
+                Grid.Column="1"/>           
 
             <Frame HeightRequest="100" BackgroundColor="LightGray">
                 <Label  x:Name="LabelPergunta"
