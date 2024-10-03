@@ -4,7 +4,7 @@ public class Questao : IEquatable<Questao>
 {
     public bool Equals(Questao q)
     {
-        return this.nivelpergunta == q.nivelpergunta;
+        return this.nivelpergunta == q.nivelpergunta && this.Pergunta == q.Pergunta;
     }
     public string Pergunta;
     public string Resposta1;
@@ -41,6 +41,12 @@ public class Questao : IEquatable<Questao>
         buttonResposta3.Text = Resposta3;
         buttonResposta4.Text = Resposta4;
         buttonResposta5.Text = Resposta5;
+
+        buttonResposta1.IsVisible = true;
+        buttonResposta2.IsVisible = true;
+        buttonResposta3.IsVisible = true;
+        buttonResposta4.IsVisible = true;
+        buttonResposta5.IsVisible = true;
 
         this.buttonResposta1!.BackgroundColor = Colors.Brown;
         this.buttonResposta2!.BackgroundColor = Colors.Brown;

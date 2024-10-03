@@ -2,7 +2,7 @@ namespace ShowdoMilhao;
 
 public class Gerenciador
 {
-    List<Questao> ListaTodasQuestoes = new List<Questao>();
+    List<Questao> ListaQuestoes = new List<Questao>();
     List<int> ListaQuestoesRespondidas = new List<int>();
     Questao QuestaoCorrente;
     Label labelPontuacao;
@@ -10,6 +10,11 @@ public class Gerenciador
 
     public int Pontuação { get; private set; }
     int NivelAtual = 0;
+
+    public Questao GetQuestaoCorrente()
+    {
+        return GetQuestaoCorrente;
+    }
 
     void Inicializar()
     {
@@ -65,7 +70,7 @@ public class Gerenciador
         Q1.RespostaCorreta = 4;
         Q1.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q1.nivelpergunta = 1;
-        ListaTodasQuestoes.Add(Q1);
+         ListaQuestoes.Add(Q1);
 
         var Q2 = new Questao();
         Q2.Pergunta = "Quantos filhos(as) Willian Afton tinha?";
@@ -77,7 +82,7 @@ public class Gerenciador
         Q2.RespostaCorreta = 5;
         Q2.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q2.nivelpergunta = 1;
-        ListaTodasQuestoes.Add(Q2);
+         ListaQuestoes.Add(Q2);
 
         var Q3 = new Questao();
         Q3.Pergunta = "Qual a cor do Bonnie de FNAF 1?";
@@ -89,7 +94,7 @@ public class Gerenciador
         Q3.RespostaCorreta = 2;
         Q3.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q3.nivelpergunta = 1;
-        ListaTodasQuestoes.Add(Q3);
+         ListaQuestoes.Add(Q3);
 
         var Q4 = new Questao();
         Q4.Pergunta = "Quandas cameras tem no Fnaf 1?";
@@ -101,7 +106,7 @@ public class Gerenciador
         Q4.RespostaCorreta = 3;
         Q4.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q4.nivelpergunta = 1;
-        ListaTodasQuestoes.Add(Q4);
+         ListaQuestoes.Add(Q4);
 
         var Q5 = new Questao();
         Q5.Pergunta = "Qual o nome da que o Mike usa no Fnaf 1?";
@@ -113,7 +118,7 @@ public class Gerenciador
         Q5.RespostaCorreta = 4;
         Q5.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q5.nivelpergunta = 1;
-        ListaTodasQuestoes.Add(Q5);
+         ListaQuestoes.Add(Q5);
 
         var Q6 = new Questao();
         Q6.Pergunta = "Qual a cor da roupa de William Afton";
@@ -125,7 +130,7 @@ public class Gerenciador
         Q6.RespostaCorreta = 3;
         Q6.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q6.nivelpergunta = 1;
-        ListaTodasQuestoes.Add(Q6);
+         ListaQuestoes.Add(Q6);
 
         var Q7 = new Questao();
         Q7.Pergunta = "Qual o nome da criança dentro da Baby";
@@ -137,7 +142,7 @@ public class Gerenciador
         Q7.RespostaCorreta = 4;
         Q7.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q7.nivelpergunta = 1;
-        ListaTodasQuestoes.Add(Q7);
+         ListaQuestoes.Add(Q7);
 
         var Q8 = new Questao();
         Q8.Pergunta = "Quandos Animatrônicos tem na UCN";
@@ -149,7 +154,7 @@ public class Gerenciador
         Q8.RespostaCorreta = 2;
         Q8.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q8.nivelpergunta = 1;
-        ListaTodasQuestoes.Add(Q8);
+         ListaQuestoes.Add(Q8);
 
         var Q9 = new Questao();
         Q9.Pergunta = "Qual é o nome do criador da série Five Nights at Freddy's?";
@@ -161,7 +166,7 @@ public class Gerenciador
         Q9.RespostaCorreta = 1;
         Q9.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q9.nivelpergunta = 1;
-        ListaTodasQuestoes.Add(Q9);
+         ListaQuestoes.Add(Q9);
 
         var Q10 = new Questao();
         Q10.Pergunta = "Qual o nome da guarda de segurança do FNAF Security Breach";
@@ -173,7 +178,7 @@ public class Gerenciador
         Q10.RespostaCorreta = 4;
         Q10.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q10.nivelpergunta = 1;
-        ListaTodasQuestoes.Add(Q10);
+         ListaQuestoes.Add(Q10);
 
         var Q11 = new Questao();
         Q11.Pergunta = "Qual Animatrônico não tem uma versão phanton?";
@@ -185,7 +190,7 @@ public class Gerenciador
         Q11.RespostaCorreta = 3;
         Q11.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q11.nivelpergunta = 2;
-        ListaTodasQuestoes.Add(Q11);
+         ListaQuestoes.Add(Q11);
 
         var Q12 = new Questao();
         Q12.Pergunta = "Qual o Animatrônic de Fnaf 2 que quando de mata fecha o jogo?";
@@ -197,7 +202,7 @@ public class Gerenciador
         Q12.RespostaCorreta = 3;
         Q12.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q12.nivelpergunta = 2;
-        ListaTodasQuestoes.Add(Q12);
+         ListaQuestoes.Add(Q12);
 
         var Q13 = new Questao();
         Q13.Pergunta = "Qual o nome do pesonagem que rouba as suas pilhas ?";
@@ -209,7 +214,7 @@ public class Gerenciador
         Q13.RespostaCorreta = 2;
         Q13.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q13.nivelpergunta = 2;
-        ListaTodasQuestoes.Add(Q13);
+         ListaQuestoes.Add(Q13);
 
         var Q14 = new Questao();
         Q14.Pergunta = "O que a Mangle é?";
@@ -221,7 +226,7 @@ public class Gerenciador
         Q14.RespostaCorreta = 5;
         Q14.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q14.nivelpergunta = 2;
-        ListaTodasQuestoes.Add(Q14);
+         ListaQuestoes.Add(Q14);
 
         var Q15 = new Questao();
         Q15.Pergunta = "Qual a noite de Fnaf 1 tam a maior chance de apareçer o Golgen Freddy?";
@@ -233,7 +238,7 @@ public class Gerenciador
         Q15.RespostaCorreta = 1;
         Q15.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q15.nivelpergunta = 2;
-        ListaTodasQuestoes.Add(Q15);
+         ListaQuestoes.Add(Q15);
 
         var Q16 = new Questao();
         Q16.Pergunta = "Qual animatronic deu a mordida de 83 ?";
@@ -245,7 +250,7 @@ public class Gerenciador
         Q16.RespostaCorreta = 2;
         Q16.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q16.nivelpergunta = 2;
-        ListaTodasQuestoes.Add(Q16);
+         ListaQuestoes.Add(Q16);
 
         var Q17 = new Questao();
         Q17.Pergunta = "Qual o historia a Eleanor aparece ?";
@@ -257,7 +262,7 @@ public class Gerenciador
         Q17.RespostaCorreta = 3;
         Q17.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q17.nivelpergunta = 2;
-        ListaTodasQuestoes.Add(Q17);
+         ListaQuestoes.Add(Q17);
 
         var Q18 = new Questao();
         Q18.Pergunta = "Quantas historia tem o  Five Nights at Freddy's: Fazbear Frights?";
@@ -269,7 +274,7 @@ public class Gerenciador
         Q18.RespostaCorreta = 4;
         Q18.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q18.nivelpergunta = 2;
-        ListaTodasQuestoes.Add(Q18);
+         ListaQuestoes.Add(Q18);
 
         var Q19 = new Questao();
         Q19.Pergunta = "Qual o nome do Fnaf que parece um RPG";
@@ -281,7 +286,7 @@ public class Gerenciador
         Q19.RespostaCorreta = 3;
         Q19.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q19.nivelpergunta = 2;
-        ListaTodasQuestoes.Add(Q19);
+         ListaQuestoes.Add(Q19);
 
         var Q20 = new Questao();
         Q20.Pergunta = "Qual o animatonic que de mata quando a music acaba?";
@@ -293,7 +298,7 @@ public class Gerenciador
         Q20.RespostaCorreta = 3;
         Q20.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q20.nivelpergunta = 2;
-        ListaTodasQuestoes.Add(Q20);
+         ListaQuestoes.Add(Q20);
 
         var Q21 = new Questao();
         Q21.Pergunta = "Qual o animatronic não aparece em nenhuma camera?";
@@ -305,7 +310,7 @@ public class Gerenciador
         Q21.RespostaCorreta = 2;
         Q21.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q21.nivelpergunta = 3;
-        ListaTodasQuestoes.Add(Q21);
+         ListaQuestoes.Add(Q21);
 
         var Q22 = new Questao();
         Q22.Pergunta = "Qual o nome do animatronic mata e se difarça de Sarah";
@@ -317,7 +322,7 @@ public class Gerenciador
         Q22.RespostaCorreta = 4;
         Q22.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q22.nivelpergunta = 3;
-        ListaTodasQuestoes.Add(Q22);
+         ListaQuestoes.Add(Q22);
 
         var Q23 = new Questao();
         Q23.Pergunta = "Qual o maior animatronic de Fnaf?";
@@ -329,7 +334,7 @@ public class Gerenciador
         Q23.RespostaCorreta = 1;
         Q23.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q23.nivelpergunta = 3;
-        ListaTodasQuestoes.Add(Q23);
+         ListaQuestoes.Add(Q23);
 
         var Q24 = new Questao();
         Q24.Pergunta = "Qual o valor do pagamento nosso de Fnaf 1";
@@ -341,7 +346,7 @@ public class Gerenciador
         Q24.RespostaCorreta = 4;
         Q24.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q24.nivelpergunta = 3;
-        ListaTodasQuestoes.Add(Q24);
+         ListaQuestoes.Add(Q24);
 
         var Q25 = new Questao();
         Q25.Pergunta = "Qual nome do animatronic que parece um coelho assassino que todo mundo zoa ele?";
@@ -353,7 +358,7 @@ public class Gerenciador
         Q25.RespostaCorreta = 2;
         Q25.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q25.nivelpergunta = 3;
-        ListaTodasQuestoes.Add(Q25);
+         ListaQuestoes.Add(Q25);
 
         var Q26 = new Questao();
         Q26.Pergunta = "Qual o nightmare que se esconde dentro do guarda-roupa?";
@@ -365,7 +370,7 @@ public class Gerenciador
         Q26.RespostaCorreta = 4;
         Q26.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q26.nivelpergunta = 3;
-        ListaTodasQuestoes.Add(Q26);
+         ListaQuestoes.Add(Q26);
 
         var Q27 = new Questao();
         Q27.Pergunta = "Como era o relacionamento de Willian Afton com seus filhos?";
@@ -377,7 +382,7 @@ public class Gerenciador
         Q27.RespostaCorreta = 2;
         Q27.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q27.nivelpergunta = 3;
-        ListaTodasQuestoes.Add(Q27);
+         ListaQuestoes.Add(Q27);
 
         var Q28 = new Questao();
         Q28.Pergunta = "Qual o animatronic que se nega a fazer parte do Ennard?";
@@ -389,7 +394,7 @@ public class Gerenciador
         Q28.RespostaCorreta = 2;
         Q28.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q28.nivelpergunta = 2;
-        ListaTodasQuestoes.Add(Q28);
+         ListaQuestoes.Add(Q28);
 
         var Q29 = new Questao();
         Q29.Pergunta = "Qual a fala mais famosa de Fnaf?";
@@ -401,7 +406,7 @@ public class Gerenciador
         Q29.RespostaCorreta = 1;
         Q29.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q29.nivelpergunta = 3;
-        ListaTodasQuestoes.Add(Q29);
+         ListaQuestoes.Add(Q29);
 
         var Q30 = new Questao();
         Q30.Pergunta = "Qual o Withered não tem cara?";
@@ -413,7 +418,7 @@ public class Gerenciador
         Q30.RespostaCorreta = 2;
         Q30.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q30.nivelpergunta = 3;
-        ListaTodasQuestoes.Add(Q30);
+         ListaQuestoes.Add(Q30);
 
 
         var Q31 = new Questao();
@@ -426,7 +431,7 @@ public class Gerenciador
         Q31.RespostaCorreta = 1;
         Q31.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q31.nivelpergunta = 4;
-        ListaTodasQuestoes.Add(Q31);
+         ListaQuestoes.Add(Q31);
 
         var Q32 = new Questao();
         Q32.Pergunta = "De qual animatronic nos usamos a máscara no Fnaf 2?";
@@ -438,7 +443,7 @@ public class Gerenciador
         Q32.RespostaCorreta = 4;
         Q32.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q32.nivelpergunta = 4;
-        ListaTodasQuestoes.Add(Q32);
+         ListaQuestoes.Add(Q32);
 
         var Q33 = new Questao();
         Q33.Pergunta = "Qual animatronic não aparece na UCN?";
@@ -450,7 +455,7 @@ public class Gerenciador
         Q33.RespostaCorreta = 4;
         Q33.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q33.nivelpergunta = 4;
-        ListaTodasQuestoes.Add(Q33);
+         ListaQuestoes.Add(Q33);
 
         var Q34 = new Questao();
         Q34.Pergunta = "Quantos dentes tem o Nightmare Nightmare?";
@@ -462,7 +467,7 @@ public class Gerenciador
         Q34.RespostaCorreta = 3;
         Q34.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q34.nivelpergunta = 4;
-        ListaTodasQuestoes.Add(Q34);
+         ListaQuestoes.Add(Q34);
 
         var Q35 = new Questao();
         Q35.Pergunta = "Em que noite o Nightmare aparece?";
@@ -474,7 +479,7 @@ public class Gerenciador
         Q35.RespostaCorreta = 5;
         Q35.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q35.nivelpergunta = 4;
-        ListaTodasQuestoes.Add(Q35);
+         ListaQuestoes.Add(Q35);
 
         var Q36 = new Questao();
         Q36.Pergunta = "Qual o nome da filha do Henry Emily?";
@@ -486,7 +491,7 @@ public class Gerenciador
         Q36.RespostaCorreta = 3;
         Q36.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q36.nivelpergunta = 4;
-        ListaTodasQuestoes.Add(Q36);
+         ListaQuestoes.Add(Q36);
 
         var Q37 = new Questao();
         Q37.Pergunta = "Por que o Withered Foxy te mata mesmo estando com a máscara?";
@@ -498,7 +503,7 @@ public class Gerenciador
         Q37.RespostaCorreta = 5;
         Q37.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q37.nivelpergunta = 4;
-        ListaTodasQuestoes.Add(Q37);
+         ListaQuestoes.Add(Q37);
 
         var Q38 = new Questao();
         Q38.Pergunta = "Que horas o jogo acaba?";
@@ -510,7 +515,7 @@ public class Gerenciador
         Q38.RespostaCorreta = 4;
         Q38.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q38.nivelpergunta = 4;
-        ListaTodasQuestoes.Add(Q38);
+         ListaQuestoes.Add(Q38);
 
         var Q39 = new Questao();
         Q39.Pergunta = "De onde veio o jumpscare de Fnaf?";
@@ -522,7 +527,7 @@ public class Gerenciador
         Q39.RespostaCorreta = 3;
         Q39.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q39.nivelpergunta = 4;
-        ListaTodasQuestoes.Add(Q39);
+         ListaQuestoes.Add(Q39);
 
         var Q40 = new Questao();
         Q40.Pergunta = "Quantas portas tem o quarto da criança chorona?";
@@ -534,7 +539,7 @@ public class Gerenciador
         Q40.RespostaCorreta = 1;
         Q40.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q40.nivelpergunta = 4;
-        ListaTodasQuestoes.Add(Q40);
+         ListaQuestoes.Add(Q40);
 
 
         var Q41 = new Questao();
@@ -547,7 +552,7 @@ public class Gerenciador
         Q41.RespostaCorreta = 3;
         Q41.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q41.nivelpergunta = 5;
-        ListaTodasQuestoes.Add(Q41);
+         ListaQuestoes.Add(Q41);
 
         var Q42 = new Questao();
         Q42.Pergunta = "Qual o nome do assassino de Fnaf?";
@@ -559,7 +564,7 @@ public class Gerenciador
         Q42.RespostaCorreta = 5;
         Q42.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q42.nivelpergunta = 5;
-        ListaTodasQuestoes.Add(Q42);
+         ListaQuestoes.Add(Q42);
 
         var Q43 = new Questao();
         Q43.Pergunta = "Qual o nome da ferramenta usada para criar Fnaf 1?";
@@ -571,7 +576,7 @@ public class Gerenciador
         Q43.RespostaCorreta = 3;
         Q43.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q43.nivelpergunta = 5;
-        ListaTodasQuestoes.Add(Q43);
+         ListaQuestoes.Add(Q43);
 
         var Q44 = new Questao();
         Q44.Pergunta = "Qual frase o Golden Freddy sempre diz?";
@@ -583,7 +588,7 @@ public class Gerenciador
         Q44.RespostaCorreta = 5;
         Q44.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q44.nivelpergunta = 5;
-        ListaTodasQuestoes.Add(Q44);
+         ListaQuestoes.Add(Q44);
 
         var Q45 = new Questao();
         Q45.Pergunta = "Quem é que fala 'I always come back'?";
@@ -595,7 +600,7 @@ public class Gerenciador
         Q45.RespostaCorreta = 3;
         Q45.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q45.nivelpergunta = 5;
-        ListaTodasQuestoes.Add(Q45);
+         ListaQuestoes.Add(Q45);
 
         var Q46 = new Questao();
         Q46.Pergunta = "Qual animatronic é o rosto da Fazbear?";
@@ -607,7 +612,7 @@ public class Gerenciador
         Q46.RespostaCorreta = 2;
         Q46.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q46.nivelpergunta = 5;
-        ListaTodasQuestoes.Add(Q46);
+         ListaQuestoes.Add(Q46);
 
         var Q47 = new Questao();
         Q47.Pergunta = "Qual o nome do primeiro Youtuber brasileiro a passar o 50/20 da UCN?";
@@ -619,7 +624,7 @@ public class Gerenciador
         Q47.RespostaCorreta = 2;
         Q47.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q47.nivelpergunta = 5;
-        ListaTodasQuestoes.Add(Q47);
+         ListaQuestoes.Add(Q47);
 
         var Q48 = new Questao();
         Q48.Pergunta = "Qual o nome da fangame de Fnaf em que o animatronic principal é um gato?";
@@ -631,7 +636,7 @@ public class Gerenciador
         Q48.RespostaCorreta = 5;
         Q48.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q48.nivelpergunta = 5;
-        ListaTodasQuestoes.Add(Q48);
+         ListaQuestoes.Add(Q48);
 
         var Q49 = new Questao();
         Q49.Pergunta = "Qual a fangame de Fnaf em que nós controlamos o Scott Cawthon?";
@@ -643,7 +648,7 @@ public class Gerenciador
         Q49.RespostaCorreta = 4;
         Q49.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q49.nivelpergunta = 5;
-        ListaTodasQuestoes.Add(Q49);
+         ListaQuestoes.Add(Q49);
 
         var Q50 = new Questao();
         Q50.Pergunta = "Qual a fangame em que o vilão é um ovo?";
@@ -655,7 +660,7 @@ public class Gerenciador
         Q50.RespostaCorreta = 2;
         Q50.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q50.nivelpergunta = 5;
-        ListaTodasQuestoes.Add(Q50);
+         ListaQuestoes.Add(Q50);
 
 
         var Q51 = new Questao();
@@ -668,7 +673,7 @@ public class Gerenciador
         Q51.RespostaCorreta = 4;
         Q51.ConfiguraDesenho(labelPergunta, buttonResposta1, buttonResposta2, buttonResposta3, buttonResposta4, buttonResposta5);
         Q51.nivelpergunta = 6;
-        ListaQuestoes.Add(Q51);
+         ListaQuestoes.Add(Q51);
 
         var Q52 = new Questao();
         Q52.Pergunta = "Em qual Five Nights at Candy's o personagen Rat aparece";
@@ -1122,7 +1127,7 @@ public class Gerenciador
         Q89.Pergunta = "Qual destes personagens não está no jogo FNAF Ultimate Custom Night?";
         Q89.Resposta1 = "Molten Freddy";
         Q89.Resposta2 = "Scraptrap";
-        Q89.Resposta3 = "Ballora";
+        Q89.Resposta3 = "Phanton Foxy";
         Q89.Resposta4 = "Nightmare Fredbear";
         Q89.Resposta5 = "Phantom Freddy";
         Q89.RespostaCorreta = 3;
@@ -1269,19 +1274,11 @@ public class Gerenciador
 
     public void ProximaQuestao()
     {
-        var ListaQuestoes = ListaTodasQuestoes.Where(d => d.nivelpergunta == NivelAtual).ToList();
-        var numRandomico = Random.Shared.Next(0, ListaQuestoes.Count - 1);
-
-        QuestaoCorrente = ListaQuestoes[numRandomico];
-
-        while (ListaQuestoesRespondidas.Contains(QuestaoCorrente))
-        {
-            numRandomico = Random.Shared.Next(0, ListaQuestoes.Count - 1);
-            QuestaoCorrente = ListaQuestoes[numRandomico];
-        }
-
-        ListaQuestoesRespondidas.Add(QuestaoCorrente);
-
+        var NumRandomico = Random.Shared.Next(0, ListaQuestoes.Count - 1);
+        while(ListaQuestoesRespondidas.Contains(NumRandomico))
+        NumRandomico = Random.Shared.Next(0, ListaQuestoes.Count - 1);
+        ListaQuestoesRespondidas.Add(NumRandomico);
+        QuestaoCorrente = ListaQuestoes[NumRandomico];
         QuestaoCorrente.Desenhar();
     }
 

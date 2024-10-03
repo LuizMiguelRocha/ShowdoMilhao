@@ -37,17 +37,21 @@
         }
 
         // Eventos para os botões na parte inferior
-        private void OnButton6Clicked(object sender, EventArgs e)
+        private void Retirar(object sender, EventArgs e)
         {
-            // Ação do Botão 6
+            var ajuda = new RetiraErradas();
+            ajuda.ConfiguraDesenho(ButtonResposta1, ButtonResposta2, ButtonResposta3, ButtonResposta4, ButtonResposta5);
+            ajuda.RealizaAjuda(gerenciador.GetQuestaoCorrente());
+            (sender as Button).IsVisible = false;
         }
 
-        private void OnButton7Clicked(object sender, EventArgs e)
+        private void Pular(object sender, EventArgs e)
         {
-            // Ação do Botão 7
+            gerenciador.ProximaQuestao();
+            (sender as Button).IsVisible = false;
         }
 
-        private void OnButton8Clicked(object sender, EventArgs e)
+        private void Estudandes(object sender, EventArgs e)
         {
             // Ação do Botão 8
         }
