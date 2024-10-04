@@ -42,18 +42,21 @@
             var ajuda = new RetiraErradas();
             ajuda.ConfiguraDesenho(ButtonResposta1, ButtonResposta2, ButtonResposta3, ButtonResposta4, ButtonResposta5);
             ajuda.RealizaAjuda(gerenciador.GetQuestaoCorrente());
-            (sender as Button).IsVisible = false;
+            buttonEliminar.IsVisible = false;
         }
 
         private void Pular(object sender, EventArgs e)
         {
             gerenciador.ProximaQuestao();
-            (sender as Button).IsVisible = false;
+            buttonPular.IsVisible = false;
         }
 
         private void Estudandes(object sender, EventArgs e)
         {
-            // Ação do Botão 8
+           var ajuda = new Universitarios();
+            ajuda.ConfiguraDesenho(ButtonResposta1, ButtonResposta2, ButtonResposta3, ButtonResposta4, ButtonResposta5);
+            ajuda.RealizaAjuda(gerenciador.GetQuestaoCorrente());
+            buttonUniversitario.IsVisible = false;
         }
     }
 }

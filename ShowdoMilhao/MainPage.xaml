@@ -42,15 +42,15 @@
             </Frame>
 
             <Button x:Name="ButtonResposta1" Text="Botão 1" TextColor="Black" HeightRequest="50"  Clicked="OnButton1Clicked"/>
-            <Button x:Name="ButtonResposta1" Text="Botão 2" TextColor="Black" HeightRequest="50"  Clicked="OnButton2Clicked"/>
+            <Button x:Name="ButtonResposta2" Text="Botão 2" TextColor="Black" HeightRequest="50"  Clicked="OnButton2Clicked"/>
             <Button x:Name="ButtonResposta3" Text="Botão 3" TextColor="Black" HeightRequest="50"  Clicked="OnButton3Clicked"/>
             <Button x:Name="ButtonResposta4" Text="Botão 4" TextColor="Black" HeightRequest="50"  Clicked="OnButton4Clicked"/>
             <Button x:Name="ButtonResposta5" Text="Botão 5" TextColor="Black" HeightRequest="50"  Clicked="OnButton5Clicked"/>
 
             <Grid ColumnDefinitions="*,*,*">
-                <ImageButton Source="numero.png" Grid.Column="0" HeightRequest="100" Clicked="Retirar"/>
-                <ImageButton Source="foxy.png" Grid.Column="1" HeightRequest="100" Clicked="Pular"/>
-                <ImageButton Source="left.png" Grid.Column="2" HeightRequest="100" Clicked="Estudandes"/>
+                <ImageButton Source="numero.png" x:Name="buttonEliminar" Grid.Column="0" HeightRequest="100" Clicked="Retirar"/>
+                <ImageButton Source="foxy.png" x:Name="buttonPular" Grid.Column="1" HeightRequest="100" Clicked="Pular"/>
+                <ImageButton Source="left.png" x:Name="buttonUniversitario" Grid.Column="2" HeightRequest="100" Clicked="Estudandes"/>
             </Grid>
 
         </StackLayout>

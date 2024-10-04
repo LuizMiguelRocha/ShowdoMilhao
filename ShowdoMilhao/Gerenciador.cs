@@ -13,7 +13,7 @@ public class Gerenciador
 
     public Questao GetQuestaoCorrente()
     {
-        return GetQuestaoCorrente;
+        return QuestaoCorrente;
     }
 
     void Inicializar()
