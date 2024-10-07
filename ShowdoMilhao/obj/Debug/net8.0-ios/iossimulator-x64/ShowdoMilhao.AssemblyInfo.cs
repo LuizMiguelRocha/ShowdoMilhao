@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShowdoMilhao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+45ff4f095dc7fb98a7c35113688b4fed790fde9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+dd890255ee35f62852df9da594bbb6736885bd74")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShowdoMilhao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShowdoMilhao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
