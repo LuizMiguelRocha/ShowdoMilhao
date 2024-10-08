@@ -49,7 +49,7 @@
 
             <Grid ColumnDefinitions="*,*,*">
                 <ImageButton Source="numero.png" x:Name="buttonEliminar" Grid.Column="0" HeightRequest="100" Clicked="Retirar"/>
-                <ImageButton Source="foxy.png" x:Name="buttonPular" Grid.Column="1" HeightRequest="100" Clicked="Pular"/>
+                <ImageButton Source="primeira.png" x:Name="buttonPular" Grid.Column="1" HeightRequest="100" Clicked="Pular"/>
                 <ImageButton Source="left.png" x:Name="buttonUniversitario" Grid.Column="2" HeightRequest="100" Clicked="Estudandes"/>
             </Grid>
 

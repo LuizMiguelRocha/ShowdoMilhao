@@ -37,6 +37,7 @@
         }
 
         // Eventos para os botões na parte inferior
+
         private void Retirar(object sender, EventArgs e)
         {
             var ajuda = new RetiraErradas();
@@ -45,10 +46,27 @@
             buttonEliminar.IsVisible = false;
         }
 
-        private void Pular(object sender, EventArgs e)
+        int Pulou = 0;
+        void Pular(object sender, EventArgs e)
         {
-            gerenciador.ProximaQuestao();
+            if(Pulou == 2)
             buttonPular.IsVisible = false;
+            else
+            {
+                gerenciador.ProximaQuestao();
+                Pulou++;
+            }
+
+            switch(Pulou)
+            {
+                case 1:
+                buttonPular.Source = "segunda.png";
+                break;
+
+                case 2:
+                buttonPular.Source = "terceira.png";
+                break;
+            }
         }
 
         private void Estudandes(object sender, EventArgs e)
